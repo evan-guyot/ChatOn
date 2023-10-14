@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gUN1hd1clrZYKA0qWbzREEnYPrVV7XbDBcvznjYr9Gw=",
+  "Source": "ChatOn.Api",
+  "BasePath": "_content/ChatOn.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
