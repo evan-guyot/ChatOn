@@ -570,3 +570,7 @@ wwwroot
 # migrations
 
 ChatOn.Api.Database/Migrations/
+
+## includes 
+
+!ChatOn.WebApp/.gitignore
