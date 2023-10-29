@@ -11818,8 +11818,8 @@
     },
     "ChatOn.Api.Models/1.0.0": {
       "type": "project",
-      "path": "../ChatOn.Models/ChatOn.Api.Models.csproj",
-      "msbuildProject": "../ChatOn.Models/ChatOn.Api.Models.csproj"
+      "path": "../ChatOn.Api.Models/ChatOn.Api.Models.csproj",
+      "msbuildProject": "../ChatOn.Api.Models/ChatOn.Api.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11871,8 +11871,8 @@
             "D:\\Git\\chat-on\\ChatOn.Api.Database\\ChatOn.Api.Database.csproj": {
               "projectPath": "D:\\Git\\chat-on\\ChatOn.Api.Database\\ChatOn.Api.Database.csproj"
             },
-            "D:\\Git\\chat-on\\ChatOn.Models\\ChatOn.Api.Models.csproj": {
-              "projectPath": "D:\\Git\\chat-on\\ChatOn.Models\\ChatOn.Api.Models.csproj"
+            "D:\\Git\\chat-on\\ChatOn.Api.Models\\ChatOn.Api.Models.csproj": {
+              "projectPath": "D:\\Git\\chat-on\\ChatOn.Api.Models\\ChatOn.Api.Models.csproj"
             }
           }
         }

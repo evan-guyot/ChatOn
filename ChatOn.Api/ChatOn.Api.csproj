@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChatOn.Api.Database\ChatOn.Api.Database.csproj" />
-    <ProjectReference Include="..\ChatOn.Models\ChatOn.Api.Models.csproj" />
+    <ProjectReference Include="..\ChatOn.Api.Models\ChatOn.Api.Models.csproj" />
   </ItemGroup>
 
 </Project>

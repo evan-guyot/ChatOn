@@ -5,9 +5,9 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatOn.Api", "ChatOn.Api.csproj", "{0CD27195-D0D7-4A15-A738-613E25E6E4B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatOn.Api.Models", "..\ChatOn.Models\ChatOn.Api.Models.csproj", "{F331DA5F-40E8-46FE-A554-C9C78E7324DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatOn.Api.Database", "..\ChatOn.Api.Database\ChatOn.Api.Database.csproj", "{09E03AD8-1D5D-41B5-8427-A770FB17E134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatOn.Api.Database", "..\ChatOn.Api.Database\ChatOn.Api.Database.csproj", "{09E03AD8-1D5D-41B5-8427-A770FB17E134}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatOn.Api.Models", "..\ChatOn.Api.Models\ChatOn.Api.Models.csproj", "{885758F7-2BCC-46AC-BE8D-85BDCA69808F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{0CD27195-D0D7-4A15-A738-613E25E6E4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CD27195-D0D7-4A15-A738-613E25E6E4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CD27195-D0D7-4A15-A738-613E25E6E4B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F331DA5F-40E8-46FE-A554-C9C78E7324DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F331DA5F-40E8-46FE-A554-C9C78E7324DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F331DA5F-40E8-46FE-A554-C9C78E7324DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F331DA5F-40E8-46FE-A554-C9C78E7324DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09E03AD8-1D5D-41B5-8427-A770FB17E134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09E03AD8-1D5D-41B5-8427-A770FB17E134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09E03AD8-1D5D-41B5-8427-A770FB17E134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09E03AD8-1D5D-41B5-8427-A770FB17E134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885758F7-2BCC-46AC-BE8D-85BDCA69808F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885758F7-2BCC-46AC-BE8D-85BDCA69808F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885758F7-2BCC-46AC-BE8D-85BDCA69808F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885758F7-2BCC-46AC-BE8D-85BDCA69808F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
