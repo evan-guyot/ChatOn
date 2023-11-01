@@ -1,0 +1,26 @@
+name: Buildings
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Next.js Dependencies
+        run: npm install
+        working-directory: ChatOn.WebApp
+
+      - name: Build Next.js Web App
+        run: npm run build
+        working-directory: ChatOn.WebApp
+
+      - name: Build .NET API
+        run: dotnet build
+        args: ["--no-warn", "--treat-warnings-as-errors"]
+        working-directory: Chaton.Api
