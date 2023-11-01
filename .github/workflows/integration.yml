@@ -22,4 +22,4 @@ jobs:
 
       - name: Build .NET API
         run: dotnet build
-        working-directory: Chaton.Api
+        working-directory: ChatOn.Api
