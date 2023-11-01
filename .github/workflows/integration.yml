@@ -22,5 +22,4 @@ jobs:
 
       - name: Build .NET API
         run: dotnet build
-        args: ["--no-warn", "--treat-warnings-as-errors"]
         working-directory: Chaton.Api
