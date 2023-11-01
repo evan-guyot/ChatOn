@@ -1,4 +1,5 @@
 ﻿using ChatOn.Models;
+using ChatOn.Database;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
