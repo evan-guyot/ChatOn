@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ChatOn.Models;
 
-namespace ChatOn.Models
+namespace ChatOn.Database
 {
     public class DatabaseContext : DbContext
     {
